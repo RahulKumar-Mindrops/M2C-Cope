@@ -875,60 +875,6 @@ p:last-child {
   padding: 68px 0 84px;
 }
 
-.hero-excellence-shield {
-  position: absolute;
-  top: 22px;
-  right: 72px;
-  width: 112px;
-  background-color: rgba(20, 18, 6, 0.82);
-  border: 1.5px solid var(--bas-gold);
-  border-radius: 3px;
-  padding: 14px 8px 12px;
-  text-align: center;
-  color: #FFFFFF;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.28);
-  z-index: 15;
-}
-
-.shield-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--bas-gold);
-  margin-bottom: 4px;
-}
-
-.shield-icon svg {
-  transform: rotate(32deg);
-}
-
-.shield-number {
-  font-family: var(--font-serif);
-  font-size: 1.85rem;
-  font-weight: 700;
-  color: #FFFFFF;
-  line-height: 1;
-  letter-spacing: 0.01em;
-}
-
-.shield-label {
-  display: block;
-  font-size: 0.58rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--bas-gold-light);
-  margin-top: 6px;
-  line-height: 1.35;
-}
-
-.shield-stars {
-  color: var(--bas-gold);
-  font-size: 0.72rem;
-  letter-spacing: 3px;
-  margin-top: 6px;
-}
-
 .hero-carousel-arrow {
   position: absolute;
   top: 50%;
@@ -1127,7 +1073,6 @@ p:last-child {
     padding: 48px 0 72px;
   }
 
-  .hero-excellence-shield,
   .hero-carousel-arrow {
     display: none;
   }
@@ -3556,7 +3501,6 @@ html.motion :is(
   .hero-line-brand,
   .hero-ref-tagline,
   .hero-cta-row,
-  .hero-excellence-shield,
   .offer-top > *,
   .offer-feature,
   .offer-card,
@@ -3598,7 +3542,6 @@ html.motion :is(
   .hero-line-brand,
   .hero-ref-tagline,
   .hero-cta-row,
-  .hero-excellence-shield,
   .offer-top > *,
   .offer-feature,
   .offer-card,
@@ -3645,7 +3588,6 @@ html.motion :is(.about-photo-frame, .corner-card-image, .offer-feature, .photo-b
     .hero-line-brand,
     .hero-ref-tagline,
     .hero-cta-row,
-    .hero-excellence-shield,
     .offer-top > *,
     .offer-feature,
     .offer-card,

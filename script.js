@@ -689,7 +689,7 @@
     document.documentElement.classList.add('motion');
 
     const batches = [
-      { sel: '.hero-cert-pill, .hero-line-welcome, .hero-line-brand, .hero-ref-tagline, .hero-cta-row, .hero-excellence-shield', immediate: true },
+      { sel: '.hero-cert-pill, .hero-line-welcome, .hero-line-brand, .hero-ref-tagline, .hero-cta-row', immediate: true },
       { sel: '.offer-top > *, .offer-feature, .offer-card' },
       { sel: '.photo-band-copy > *, .photo-band-image' },
       { sel: '.updates-alert-ribbon' },
