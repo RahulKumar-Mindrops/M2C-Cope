@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about MilitaryToCorp (M2C), our philosophy, vision, mission, and the leadership team bridging military excellence with corporate leadership.">
+  <meta name="theme-color" content="#152A20">
+  <title>About Us | MilitaryToCorp — Leadership Beyond Service</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-left">
+        <span class="topbar-badge">MilitaryToCorp</span>
+        <span class="topbar-tagline">Leadership Beyond Service · Veteran Hiring &amp; L&amp;OD Solutions</span>
+      </div>
+      <div class="topbar-right">
+        <a href="tel:+911244200300" class="topbar-contact-item">+91 124 420 0300</a>
+        <a href="mailto:info@militarytocorp.com" class="topbar-contact-item">info@militarytocorp.com</a>
+        <div class="topbar-auth-links">
+          <a href="https://www.militarytocorp.com/job-seeker/login" class="topbar-auth-link" target="_blank" rel="noopener">Login</a>
+          <a href="https://www.militarytocorp.com/job-seeker/registration" class="topbar-auth-btn" target="_blank" rel="noopener">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="mainHeader">
+    <div class="header-scroll-progress" id="scrollProgress"></div>
+    <div class="container nav-container">
+      <a href="index.html" class="brand" aria-label="MilitaryToCorp Homepage">
+        <img src="assets/logo.png" alt="MilitaryToCorp Logo" class="brand-logo" width="160" height="48">
+      </a>
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <div class="nav-drop">
+          <button type="button" class="nav-drop-btn is-active" aria-haspopup="true" aria-expanded="false">
+            About Us
+            <svg class="nav-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="dropdown-menu" role="menu">
+            <a href="about-us.html" class="dropdown-item">About Us Overview</a>
+            <a href="about-us.html#philosophy" class="dropdown-item">Our Philosophy</a>
+            <a href="about-us.html#vision" class="dropdown-item">Our Vision</a>
+            <a href="about-us.html#mission" class="dropdown-item">Our Mission</a>
+            <a href="about-us.html#story" class="dropdown-item">Our Story</a>
+            <a href="about-us.html#people" class="dropdown-item">Our People</a>
+          </div>
+        </div>
+        <div class="nav-drop">
+          <button type="button" class="nav-drop-btn" aria-haspopup="true" aria-expanded="false">
+            Employers
+            <svg class="nav-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="dropdown-menu" role="menu">
+            <a href="employers.html" class="dropdown-item">Employer Solutions Overview</a>
+            <a href="employers.html#hire-veterans" class="dropdown-item">Veteran Hiring Solutions</a>
+            <a href="employers.html#volume-hiring" class="dropdown-item">Volume &amp; Diversity Hiring</a>
+          </div>
+        </div>
+        <a href="job-search.html" class="nav-link">Job Search</a>
+        <a href="m2c-labs.html" class="nav-link">M2C Labs</a>
+        <a href="contact-us.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="employers.html" class="btn btn-forest btn-sm">Hire Veterans</a>
+        <a href="job-search.html" class="btn btn-outline-champagne btn-sm">Find Jobs</a>
+        <button type="button" class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-backdrop" id="mobileDrawerBackdrop"></div>
+  <aside class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-header">
+      <img src="assets/logo.png" alt="MilitaryToCorp Logo" width="140" height="42">
+      <button type="button" class="mobile-drawer-close" id="mobileDrawerClose">✕</button>
+    </div>
+    <div class="mobile-nav-list">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="about-us.html" class="mobile-nav-link is-active">About Us</a>
+      <a href="employers.html" class="mobile-nav-link">Employers</a>
+      <a href="job-search.html" class="mobile-nav-link">Job Search</a>
+      <a href="m2c-labs.html" class="mobile-nav-link">M2C Labs</a>
+      <a href="contact-us.html" class="mobile-nav-link">Contact Us</a>
+    </div>
+  </aside>
+
+  <main>
+    <!-- Sub-page Hero -->
+    <section class="subpage-hero">
+      <div class="container">
+        <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="breadcrumb-sep">/</span>
+          <span>About Us</span>
+        </nav>
+        <span class="eyebrow">Our Institutional Heritage</span>
+        <h1 class="subpage-title">Pioneering the corporate transition of India's finest leaders.</h1>
+        <p class="section-lead">
+          Founded on the principle that the values of the armed forces—integrity, relentless discipline, and mission-first leadership—are the exact competencies modern enterprises require to thrive.
+        </p>
+      </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="section" id="philosophy">
+      <div class="container">
+        <div class="section-header-split">
+          <div>
+            <span class="eyebrow">Design &amp; Service Ethos</span>
+            <h2 class="section-title">Life is in the details. <em>Look closer. Live easier.</em></h2>
+          </div>
+          <p class="section-lead">
+            When transitioning from military command to commercial management, superficial matches fail. Success lies in microscopic attention to competency mapping, organizational culture, and personalized assimilation.
+          </p>
+        </div>
+
+        <div class="philosophy-lens-grid" style="color: var(--charcoal-900);">
+          <div class="pillar-card">
+            <span class="eyebrow" style="margin-bottom: 6px;">Principle 01</span>
+            <h3 class="pillar-title">Uncompromising Clarity</h3>
+            <p class="pillar-desc">
+              We look closer into military service records, translating tactical operational terminology into transparent business metrics like P&amp;L impact, risk containment, and cross-functional leadership.
+            </p>
+          </div>
+          <div class="pillar-card">
+            <span class="eyebrow" style="margin-bottom: 6px;">Principle 02</span>
+            <h3 class="pillar-title">Integrity in Matching</h3>
+            <p class="pillar-desc">
+              We do not present volume resumes. Every veteran presented to a client has been thoroughly vetted, interviewed by ex-military executives, and verified for role fit.
+            </p>
+          </div>
+          <div class="pillar-card">
+            <span class="eyebrow" style="margin-bottom: 6px;">Principle 03</span>
+            <h3 class="pillar-title">Effortless Assimilation</h3>
+            <p class="pillar-desc">
+              We remove friction for both employer and veteran. Our tailored onboarding frameworks ensure veterans deliver immediate value from Day 1 without cultural friction.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vision & Mission -->
+    <section class="section section-warm" id="vision">
+      <div class="container">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px;">
+          <div class="cta-box cta-box-forest" id="mission">
+            <span class="eyebrow" style="color: var(--champagne-300);">Our Mission</span>
+            <h3 class="cta-box-title">Transforming military service into lasting corporate value.</h3>
+            <p class="cta-box-desc">
+              To empower corporate enterprises with battle-tested leadership while creating seamless, dignified second career pathways for Indian military veterans across all arms and services.
+            </p>
+            <div style="padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.12); font-size: 0.88rem; color: var(--champagne-200);">
+              Over 15,000 veterans transitioned since 2012
+            </div>
+          </div>
+
+          <div class="cta-box cta-box-ivory">
+            <span class="eyebrow">Our Vision</span>
+            <h3 class="cta-box-title">India's benchmark for leadership beyond service.</h3>
+            <p class="cta-box-desc">
+              To be the most valued talent catalyst in the Indo-Pacific region, establishing military veteran hiring and leadership development as an essential pillar of corporate diversity, equity, and operational excellence.
+            </p>
+            <div style="padding-top: 16px; border-top: 1px solid var(--border-medium); font-size: 0.88rem; color: var(--forest-850); font-weight: 600;">
+              Partnered with 500+ Fortune 500 &amp; Tier-1 enterprises
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="section" id="story">
+      <div class="container impact-grid">
+        <div class="impact-visual-frame">
+          <img src="assets/veteran-hiring.png" alt="MilitaryToCorp Founding Story" width="600" height="480">
+          <span class="impact-badge-tag">Founded in 2012</span>
+        </div>
+        <div class="impact-copy">
+          <span class="eyebrow">Our Story</span>
+          <h2>A Decade of Redefining Corporate Talent</h2>
+          <p>
+            MilitaryToCorp was established by military veterans who recognized a profound paradox: corporate India faced a severe crisis in reliable, ethical, crisis-resilient operational leadership, while thousands of highly trained officers were retiring annually in their prime.
+          </p>
+          <p>
+            The barrier was not competence; it was translation. Corporate HR teams lacked familiarity with military ranks and technical responsibilities, while veterans needed guidance in articulating their profound leadership experience in commercial terminology.
+          </p>
+          <p>
+            Over the past twelve years, M2C has systematically broken down these silos, becoming the premier partner for corporations seeking operational excellence and veterans seeking purposeful second careers.
+          </p>
+          <a href="employers.html" class="btn btn-forest">Explore Employer Partnerships <span class="arrow-icon">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Leadership / Our People -->
+    <section class="section section-warm" id="people">
+      <div class="container">
+        <div class="section-header-split">
+          <div>
+            <span class="eyebrow">Our People</span>
+            <h2 class="section-title">Leadership driven by <em>shared service.</em></h2>
+          </div>
+          <p class="section-lead">
+            Our team comprises seasoned corporate recruitment directors, learning &amp; development specialists, and former armed forces officers who bring firsthand insight to every search.
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 28px;">
+          <article class="pillar-card">
+            <img src="assets/jobs-officer.jpg" alt="Col. Rahul Sharma" style="width: 100%; height: 240px; object-fit: cover; border-radius: var(--r-sm); margin-bottom: 20px;">
+            <span class="eyebrow" style="margin-bottom: 4px; font-size: 0.72rem;">Co-Founder &amp; Managing Director</span>
+            <h3 class="pillar-title" style="margin-bottom: 4px;">Col. Rahul Sharma (Retd)</h3>
+            <p class="pillar-desc">24 years with Indian Army Special Forces. Expert in corporate resilience, strategic procurement, and organizational command.</p>
+          </article>
+
+          <article class="pillar-card">
+            <img src="assets/events.jpeg" alt="Wing Cdr. Ananya Sen" style="width: 100%; height: 240px; object-fit: cover; border-radius: var(--r-sm); margin-bottom: 20px;">
+            <span class="eyebrow" style="margin-bottom: 4px; font-size: 0.72rem;">Head of L&amp;OD — M2C Labs</span>
+            <h3 class="pillar-title" style="margin-bottom: 4px;">Wing Cdr. Ananya Sen (Retd)</h3>
+            <p class="pillar-desc">Ex-Indian Air Force aeronautical engineer and organizational development specialist. Leads bespoke corporate leadership simulations.</p>
+          </article>
+
+          <article class="pillar-card">
+            <img src="assets/m2c-labs.jpg" alt="Cdr. Vikram Malhotra" style="width: 100%; height: 240px; object-fit: cover; border-radius: var(--r-sm); margin-bottom: 20px;">
+            <span class="eyebrow" style="margin-bottom: 4px; font-size: 0.72rem;">Director — Talent Solutions</span>
+            <h3 class="pillar-title" style="margin-bottom: 4px;">Cdr. Vikram Malhotra (Retd)</h3>
+            <p class="pillar-desc">Ex-Indian Navy logistics and supply officer. Over a decade of corporate executive search experience placing C-suite veterans.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand">
+          <img src="assets/logo.png" alt="MilitaryToCorp Logo" width="160" height="48" style="filter: brightness(0) invert(1);">
+          <p>MilitaryToCorp (M2C) — Connecting military experience with meaningful corporate opportunity.</p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="employers.html">Employers</a></li>
+            <li><a href="job-search.html">Job Search</a></li>
+            <li><a href="m2c-labs.html">M2C Labs</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Contact</h4>
+          <p style="color: rgba(250,247,242,0.7);">Unitech Cyber Park, Sector 39, Gurugram, Haryana 122002</p>
+          <p style="color: rgba(250,247,242,0.7);"><a href="mailto:info@militarytocorp.com">info@militarytocorp.com</a></p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Get Started</h4>
+          <a href="employers.html" class="btn btn-champagne btn-sm" style="margin-bottom: 12px; display: inline-block;">Hire Veterans</a><br>
+          <a href="https://www.militarytocorp.com/job-seeker/registration" target="_blank" class="btn btn-outline-champagne btn-sm">Veteran Registration</a>
+        </div>
+      </div>
+      <div class="footer-bottom-row">
+        <div>&copy; 2026 MilitaryToCorp (M2C). All rights reserved.</div>
+        <div class="footer-legal-links">
+          <a href="about-us.html#philosophy">Our Philosophy</a>
+          <span>·</span>
+          <a href="contact-us.html">Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

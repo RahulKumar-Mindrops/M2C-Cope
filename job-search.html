@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Search verified corporate jobs for Indian military veterans. Roles in technical management, supply chain, executive leadership, and operations.">
+  <meta name="theme-color" content="#152A20">
+  <title>Veteran Job Search | MilitaryToCorp — Leadership Beyond Service</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-left">
+        <span class="topbar-badge">MilitaryToCorp</span>
+        <span class="topbar-tagline">Leadership Beyond Service · Veteran Hiring &amp; L&amp;OD Solutions</span>
+      </div>
+      <div class="topbar-right">
+        <a href="tel:+911244200300" class="topbar-contact-item">+91 124 420 0300</a>
+        <a href="mailto:info@militarytocorp.com" class="topbar-contact-item">info@militarytocorp.com</a>
+        <div class="topbar-auth-links">
+          <a href="https://www.militarytocorp.com/job-seeker/login" class="topbar-auth-link" target="_blank" rel="noopener">Login</a>
+          <a href="https://www.militarytocorp.com/job-seeker/registration" class="topbar-auth-btn" target="_blank" rel="noopener">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="mainHeader">
+    <div class="header-scroll-progress" id="scrollProgress"></div>
+    <div class="container nav-container">
+      <a href="index.html" class="brand" aria-label="MilitaryToCorp Homepage">
+        <img src="assets/logo.png" alt="MilitaryToCorp Logo" class="brand-logo" width="160" height="48">
+      </a>
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <div class="nav-drop">
+          <button type="button" class="nav-drop-btn" aria-haspopup="true" aria-expanded="false">
+            About Us
+            <svg class="nav-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="dropdown-menu" role="menu">
+            <a href="about-us.html" class="dropdown-item">About Us Overview</a>
+            <a href="about-us.html#philosophy" class="dropdown-item">Our Philosophy</a>
+            <a href="about-us.html#vision" class="dropdown-item">Our Vision &amp; Mission</a>
+            <a href="about-us.html#story" class="dropdown-item">Our Story</a>
+            <a href="about-us.html#people" class="dropdown-item">Our People</a>
+          </div>
+        </div>
+        <div class="nav-drop">
+          <button type="button" class="nav-drop-btn" aria-haspopup="true" aria-expanded="false">
+            Employers
+            <svg class="nav-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="dropdown-menu" role="menu">
+            <a href="employers.html" class="dropdown-item">Employer Solutions Overview</a>
+            <a href="employers.html#hire-veterans" class="dropdown-item">Veteran Hiring Solutions</a>
+            <a href="employers.html#volume-hiring" class="dropdown-item">Volume &amp; Diversity Hiring</a>
+          </div>
+        </div>
+        <a href="job-search.html" class="nav-link is-active">Job Search</a>
+        <a href="m2c-labs.html" class="nav-link">M2C Labs</a>
+        <a href="contact-us.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="https://www.militarytocorp.com/job-seeker/registration" target="_blank" class="btn btn-champagne btn-sm">Veteran Registration</a>
+        <button type="button" class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-backdrop" id="mobileDrawerBackdrop"></div>
+  <aside class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-header">
+      <img src="assets/logo.png" alt="MilitaryToCorp Logo" width="140" height="42">
+      <button type="button" class="mobile-drawer-close" id="mobileDrawerClose">✕</button>
+    </div>
+    <div class="mobile-nav-list">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="about-us.html" class="mobile-nav-link">About Us</a>
+      <a href="employers.html" class="mobile-nav-link">Employers</a>
+      <a href="job-search.html" class="mobile-nav-link is-active">Job Search</a>
+      <a href="m2c-labs.html" class="mobile-nav-link">M2C Labs</a>
+      <a href="contact-us.html" class="mobile-nav-link">Contact Us</a>
+    </div>
+  </aside>
+
+  <main>
+    <!-- Sub-page Hero -->
+    <section class="subpage-hero">
+      <div class="container">
+        <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="breadcrumb-sep">/</span>
+          <span>Job Search</span>
+        </nav>
+        <span class="eyebrow">Verified Opportunities</span>
+        <h1 class="subpage-title">Corporate roles engineered for military experience.</h1>
+        <p class="section-lead">
+          Every opening on this portal has been vetted for genuine leadership alignment. Search by industry, function, or military background.
+        </p>
+      </div>
+    </section>
+
+    <!-- Interactive Job Search Experience -->
+    <section class="section" id="jobsSearchSection">
+      <div class="container">
+        
+        <div class="jobs-toolbar">
+          <div class="jobs-filter-tabs" role="tablist" aria-label="Filter Jobs by Category">
+            <button type="button" class="jobs-tab-btn is-active" data-category="all" role="tab" aria-selected="true">All Positions</button>
+            <button type="button" class="jobs-tab-btn" data-category="leadership" role="tab" aria-selected="false">Corporate Leadership</button>
+            <button type="button" class="jobs-tab-btn" data-category="tech" role="tab" aria-selected="false">Tech &amp; IT</button>
+            <button type="button" class="jobs-tab-btn" data-category="operations" role="tab" aria-selected="false">Supply Chain &amp; Ops</button>
+            <button type="button" class="jobs-tab-btn" data-category="security" role="tab" aria-selected="false">Security &amp; Facilities</button>
+          </div>
+
+          <div style="display: flex; align-items: center; gap: 16px;">
+            <div class="jobs-search-box">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              <input type="text" class="jobs-search-input" id="jobSearchInput" placeholder="Filter by title, skills, or city..." aria-label="Search jobs by keyword">
+            </div>
+            <span class="jobs-count-badge" id="jobsCountBadge">Showing <strong>6</strong> positions</span>
+          </div>
+        </div>
+
+        <!-- Job Grid -->
+        <div class="jobs-grid" id="jobsGrid">
+          <!-- Populated by script.js -->
+        </div>
+
+        <div class="jobs-empty-state" id="jobsEmptyState" style="display: none;">
+          <h3>No matching positions found</h3>
+          <p>Try modifying your keyword search or selecting another category tab above.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Transition Services Guide -->
+    <section class="section section-warm" id="transition-services">
+      <div class="container">
+        <div class="section-header-split">
+          <div>
+            <span class="eyebrow">Candidate Empowerment</span>
+            <h2 class="section-title">Career Transition <em>Programs &amp; Support</em></h2>
+          </div>
+          <p class="section-lead">
+            We don't merely list vacancies; we prepare veterans for corporate interview rigors, cultural dynamics, and strategic resume articulation.
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px;">
+          <article class="pillar-card" id="ctp">
+            <span class="eyebrow">01 / Education</span>
+            <h3 class="pillar-title">Career Transition Program (CTP)</h3>
+            <p class="pillar-desc">
+              Comprehensive workshops covering corporate hierarchy, terminology conversion, salary benchmarking, and navigating multi-stage corporate interviews.
+            </p>
+            <a href="https://www.militarytocorp.com/job-seeker/registration" target="_blank" class="text-link" style="margin-top: auto;">Register for CTP <span class="arrow-icon">→</span></a>
+          </article>
+
+          <article class="pillar-card" id="resume-services">
+            <span class="eyebrow">02 / Articulation</span>
+            <h3 class="pillar-title">Resume Building Services (RBS)</h3>
+            <p class="pillar-desc">
+              Bespoke transformation of confidential military records and operational citations into powerful, ATS-compliant corporate executive profiles.
+            </p>
+            <a href="https://www.militarytocorp.com/job-seeker/registration" target="_blank" class="text-link" style="margin-top: auto;">Explore RBS <span class="arrow-icon">→</span></a>
+          </article>
+
+          <article class="pillar-card">
+            <span class="eyebrow">03 / Direct Placement</span>
+            <h3 class="pillar-title">Exclusive Career Fairs</h3>
+            <p class="pillar-desc">
+              Direct access to curated hiring events where senior HR leaders from Microsoft, Amazon, Tata Group, and Larsen &amp; Toubro interview veteran candidates.
+            </p>
+            <a href="https://www.militarytocorp.com/job-seeker/registration" target="_blank" class="text-link" style="margin-top: auto;">Join next career fair <span class="arrow-icon">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Job Modal -->
+  <div class="modal-backdrop" id="jobModal" role="dialog" aria-modal="true" aria-labelledby="modalJobTitle">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-area">
+          <span class="eyebrow" id="modalJobId" style="margin-bottom: 4px; font-size: 0.72rem;">Job ID</span>
+          <h3 id="modalJobTitle">Job Title</h3>
+        </div>
+        <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close dialog">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-meta-bar">
+          <div><strong>Company:</strong> <span id="modalJobCompany">Company</span></div>
+          <div><strong>Location:</strong> <span id="modalJobLocation">Location</span></div>
+          <div><strong>Type:</strong> <span id="modalJobType">Type</span></div>
+        </div>
+        <h4 class="modal-section-title">Position Overview</h4>
+        <p id="modalJobDesc" style="color: var(--charcoal-700); line-height: 1.7;"></p>
+        <h4 class="modal-section-title">Target Experience &amp; Military Profile</h4>
+        <p id="modalJobExp" style="color: var(--charcoal-700); font-weight: 500;"></p>
+        <h4 class="modal-section-title">Key Responsibilities</h4>
+        <ul id="modalJobResp" style="list-style: disc; padding-left: 20px; color: var(--charcoal-700); line-height: 1.7; margin-bottom: 24px;"></ul>
+        <h4 class="modal-section-title">Key Competencies</h4>
+        <div id="modalJobSkills" class="job-card-skills" style="margin-bottom: 28px;"></div>
+        <h4 class="modal-section-title" style="border-top: 1px solid var(--border-medium); padding-top: 20px;">
+          Express Interest &amp; Submit Application
+        </h4>
+        <form id="jobApplicationForm" class="modal-form-grid">
+          <input type="hidden" id="modalFormJobId" name="job_id">
+          <div class="form-group">
+            <label class="form-label" for="applicantName">Full Name *</label>
+            <input type="text" id="applicantName" class="form-input" required placeholder="e.g. Major Arjun Sharma">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="applicantEmail">Email Address *</label>
+            <input type="email" id="applicantEmail" class="form-input" required placeholder="arjun.sharma@example.com">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="applicantPhone">Phone Number *</label>
+            <input type="tel" id="applicantPhone" class="form-input" required placeholder="+91 98765 43210">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="applicantService">Armed Forces Branch *</label>
+            <select id="applicantService" class="form-select" required>
+              <option value="">Select Armed Forces Branch</option>
+              <option value="Indian Army">Indian Army</option>
+              <option value="Indian Navy">Indian Navy</option>
+              <option value="Indian Air Force">Indian Air Force</option>
+              <option value="Paramilitary">Coast Guard / Paramilitary</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="applicantRank">Last Substantive Rank</label>
+            <input type="text" id="applicantRank" class="form-input" placeholder="e.g. Lt Colonel / Commander">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="applicantNotice">Release / Availability Date</label>
+            <input type="text" id="applicantNotice" class="form-input" placeholder="e.g. Immediate / 30 Days">
+          </div>
+          <div class="form-group col-full">
+            <label class="form-label" for="applicantCover">Executive Summary &amp; Key Achievements</label>
+            <textarea id="applicantCover" rows="3" class="form-textarea" placeholder="Briefly highlight your command tenure, operational highlights, or technical specialization..."></textarea>
+          </div>
+          <div class="form-group col-full" style="margin-top: 8px;">
+            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+              Submit Application to M2C Talent Directors
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast-notice" id="toastNotice" role="alert" aria-live="polite">
+    <span id="toastMessage">Application submitted successfully.</span>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand">
+          <img src="assets/logo.png" alt="MilitaryToCorp Logo" width="160" height="48" style="filter: brightness(0) invert(1);">
+          <p>MilitaryToCorp (M2C) — Connecting military experience with meaningful corporate opportunity.</p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="employers.html">Employers</a></li>
+            <li><a href="job-search.html">Job Search</a></li>
+            <li><a href="m2c-labs.html">M2C Labs</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Candidate Helpline</h4>
+          <p style="color: rgba(250,247,242,0.7);">Unitech Cyber Park, Sector 39, Gurugram, Haryana 122002</p>
+          <p style="color: rgba(250,247,242,0.7);"><a href="mailto:info@militarytocorp.com">info@militarytocorp.com</a></p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">New Candidate</h4>
+          <a href="https://www.militarytocorp.com/job-seeker/registration" target="_blank" class="btn btn-champagne btn-sm">Register as Veteran</a>
+        </div>
+      </div>
+      <div class="footer-bottom-row">
+        <div>&copy; 2026 MilitaryToCorp (M2C). All rights reserved.</div>
+        <div class="footer-legal-links">
+          <a href="about-us.html#philosophy">Our Philosophy</a>
+          <span>·</span>
+          <a href="contact-us.html">Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

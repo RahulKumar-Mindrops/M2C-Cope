@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="M2C Labs is India's first military-themed Learning & Organisational Development (L&OD) organization, translating military leadership into corporate success.">
+  <meta name="theme-color" content="#152A20">
+  <title>M2C Labs | Military-Themed Corporate Leadership &amp; L&amp;OD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-left">
+        <span class="topbar-badge">MilitaryToCorp</span>
+        <span class="topbar-tagline">Leadership Beyond Service · Veteran Hiring &amp; L&amp;OD Solutions</span>
+      </div>
+      <div class="topbar-right">
+        <a href="tel:+911244200300" class="topbar-contact-item">+91 124 420 0300</a>
+        <a href="mailto:info@militarytocorp.com" class="topbar-contact-item">info@militarytocorp.com</a>
+        <div class="topbar-auth-links">
+          <a href="https://www.militarytocorp.com/job-seeker/login" class="topbar-auth-link" target="_blank" rel="noopener">Login</a>
+          <a href="https://www.militarytocorp.com/job-seeker/registration" class="topbar-auth-btn" target="_blank" rel="noopener">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="mainHeader">
+    <div class="header-scroll-progress" id="scrollProgress"></div>
+    <div class="container nav-container">
+      <a href="index.html" class="brand" aria-label="MilitaryToCorp Homepage">
+        <img src="assets/logo.png" alt="MilitaryToCorp Logo" class="brand-logo" width="160" height="48">
+      </a>
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <div class="nav-drop">
+          <button type="button" class="nav-drop-btn" aria-haspopup="true" aria-expanded="false">
+            About Us
+            <svg class="nav-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="dropdown-menu" role="menu">
+            <a href="about-us.html" class="dropdown-item">About Us Overview</a>
+            <a href="about-us.html#philosophy" class="dropdown-item">Our Philosophy</a>
+            <a href="about-us.html#vision" class="dropdown-item">Our Vision &amp; Mission</a>
+            <a href="about-us.html#story" class="dropdown-item">Our Story</a>
+            <a href="about-us.html#people" class="dropdown-item">Our People</a>
+          </div>
+        </div>
+        <div class="nav-drop">
+          <button type="button" class="nav-drop-btn" aria-haspopup="true" aria-expanded="false">
+            Employers
+            <svg class="nav-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="dropdown-menu" role="menu">
+            <a href="employers.html" class="dropdown-item">Employer Solutions Overview</a>
+            <a href="employers.html#hire-veterans" class="dropdown-item">Veteran Hiring Solutions</a>
+            <a href="employers.html#volume-hiring" class="dropdown-item">Volume &amp; Diversity Hiring</a>
+          </div>
+        </div>
+        <a href="job-search.html" class="nav-link">Job Search</a>
+        <a href="m2c-labs.html" class="nav-link is-active">M2C Labs</a>
+        <a href="contact-us.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="#workshop-inquiry" class="btn btn-forest btn-sm">Book Workshop</a>
+        <button type="button" class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-backdrop" id="mobileDrawerBackdrop"></div>
+  <aside class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-header">
+      <img src="assets/logo.png" alt="MilitaryToCorp Logo" width="140" height="42">
+      <button type="button" class="mobile-drawer-close" id="mobileDrawerClose">✕</button>
+    </div>
+    <div class="mobile-nav-list">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="about-us.html" class="mobile-nav-link">About Us</a>
+      <a href="employers.html" class="mobile-nav-link">Employers</a>
+      <a href="job-search.html" class="mobile-nav-link">Job Search</a>
+      <a href="m2c-labs.html" class="mobile-nav-link is-active">M2C Labs</a>
+      <a href="contact-us.html" class="mobile-nav-link">Contact Us</a>
+    </div>
+  </aside>
+
+  <main>
+    <!-- Sub-page Hero -->
+    <section class="subpage-hero" style="background: linear-gradient(180deg, var(--forest-950) 0%, var(--forest-900) 100%); color: #FFFFFF;">
+      <div class="container">
+        <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+          <a href="index.html" style="color: rgba(255,255,255,0.7);">Home</a>
+          <span class="breadcrumb-sep" style="color: rgba(255,255,255,0.4);">/</span>
+          <span style="color: var(--champagne-300);">M2C Labs</span>
+        </nav>
+        <span class="eyebrow" style="color: var(--champagne-300);">Built in the Battlefield · Designed for the Boardroom</span>
+        <h1 class="subpage-title" style="color: #FFFFFF;">India's First Military-Themed L&amp;OD Organization</h1>
+        <p class="section-lead" style="color: rgba(250,247,242,0.85);">
+          We translate more than a decade of exclusive military doctrine and experiential simulations into measurable executive clarity, crisis resilience, and cohesive team performance.
+        </p>
+      </div>
+    </section>
+
+    <!-- Introduction Narrative -->
+    <section class="section">
+      <div class="container impact-grid">
+        <div class="impact-visual-frame">
+          <img src="assets/m2c-labs.jpg" alt="M2C Labs experiential corporate workshop" width="600" height="480">
+          <span class="impact-badge-tag">Experiential Learning</span>
+        </div>
+        <div class="impact-copy">
+          <span class="eyebrow">The Doctrine</span>
+          <h2>Leadership is not a theory. It is lived experience.</h2>
+          <p>
+            At M2C Labs, we don't rely on textbook case studies; we rely on the crucible of military command. Military units operate in extreme VUCA (Volatile, Uncertain, Complex, Ambiguous) environments where decisions have life-and-death consequences.
+          </p>
+          <div style="background-color: var(--bg-canvas-subtle); border-left: 3px solid var(--champagne-500); padding: 18px 24px; border-radius: 0 var(--r-sm) var(--r-sm) 0; margin: 20px 0;">
+            <p style="font-style: italic; color: var(--forest-900); margin: 0; font-weight: 500;">
+              “True leadership is not about giving orders; it's about earning trust, building cohesive teams, and creating lasting impact under pressure.”
+            </p>
+          </div>
+          <p>
+            Our simulation workshops immerse your senior leaders in tactical crisis rooms, stress inoculation scenarios, and collaborative decision matrices that permanently transform executive behavior.
+          </p>
+          <a href="#workshop-inquiry" class="btn btn-forest">Design a Custom Workshop <span class="arrow-icon">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Modular Programs -->
+    <section class="section section-warm">
+      <div class="container">
+        <div class="section-header-split">
+          <div>
+            <span class="eyebrow">Curriculum Architecture</span>
+            <h2 class="section-title">Signature Leadership <em>Simulations</em></h2>
+          </div>
+          <p class="section-lead">
+            Four specialized workshop tracks designed for board members, business unit heads, and emerging high-potential leaders.
+          </p>
+        </div>
+
+        <div class="philosophy-lens-grid" style="color: var(--charcoal-900);">
+          <div class="pillar-card">
+            <span class="eyebrow" style="margin-bottom: 6px;">Track 01</span>
+            <h3 class="pillar-title">Command Under Ambiguity</h3>
+            <p class="pillar-desc">
+              High-velocity scenario simulations where leaders must make mission-critical resource allocation decisions with incomplete intelligence and fluctuating timelines.
+            </p>
+            <div style="margin-top: auto; padding-top: 16px; border-top: 1px solid var(--border-medium); font-size: 0.8rem; color: var(--forest-800); font-weight: 600;">
+              Target: VP, CXO, Managing Directors
+            </div>
+          </div>
+
+          <div class="pillar-card">
+            <span class="eyebrow" style="margin-bottom: 6px;">Track 02</span>
+            <h3 class="pillar-title">Fireteam Synergy &amp; Trust</h3>
+            <p class="pillar-desc">
+              Breaking functional silos. Translating the military "Buddy System" and squad accountability into seamless cross-departmental collaboration.
+            </p>
+            <div style="margin-top: auto; padding-top: 16px; border-top: 1px solid var(--border-medium); font-size: 0.8rem; color: var(--forest-800); font-weight: 600;">
+              Target: Cross-Functional Squad Leads
+            </div>
+          </div>
+
+          <div class="pillar-card">
+            <span class="eyebrow" style="margin-bottom: 6px;">Track 03</span>
+            <h3 class="pillar-title">Crisis Inoculation &amp; Agility</h3>
+            <p class="pillar-desc">
+              Tactical exercises in stress regulation, emotional fortitude, and maintaining clear communication protocols during catastrophic supply chain disruptions.
+            </p>
+            <div style="margin-top: auto; padding-top: 16px; border-top: 1px solid var(--border-medium); font-size: 0.8rem; color: var(--forest-800); font-weight: 600;">
+              Target: Operations &amp; Plant Directors
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Workshop Inquiry Form -->
+    <section class="section" id="workshop-inquiry">
+      <div class="container container-narrow">
+        <div style="background-color: #FFFFFF; border: 1px solid var(--border-medium); border-radius: var(--r-lg); padding: clamp(32px, 5vw, 56px); box-shadow: var(--shadow-md);">
+          <div style="text-align: center; margin-bottom: 36px;">
+            <span class="eyebrow">Executive Engagement</span>
+            <h2 class="section-title" style="font-size: 2.2rem; margin-bottom: 12px;">Inquire About M2C Labs Programs</h2>
+            <p class="section-lead" style="margin: 0 auto;">
+              Schedule a preliminary discovery session with our L&amp;OD directors to tailor an experiential module for your organization.
+            </p>
+          </div>
+
+          <form id="labsForm" class="modal-form-grid" style="grid-template-columns: repeat(2, 1fr);">
+            <div class="form-group">
+              <label class="form-label" for="labsName">Your Full Name *</label>
+              <input type="text" id="labsName" class="form-input" required placeholder="e.g. Vikram Malhotra">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="labsEmail">Work Email *</label>
+              <input type="email" id="labsEmail" class="form-input" required placeholder="vikram@enterprise.com">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="labsCompany">Organization Name *</label>
+              <input type="text" id="labsCompany" class="form-input" required placeholder="e.g. Tata Consultancy Services">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="labsCohort">Estimated Cohort Size</label>
+              <select id="labsCohort" class="form-select">
+                <option value="15-25 Leaders">15 - 25 Executive Leaders</option>
+                <option value="25-50 Leaders">25 - 50 Senior Managers</option>
+                <option value="50-100+ Leaders">50 - 100+ Enterprise Leaders</option>
+              </select>
+            </div>
+            <div class="form-group col-full">
+              <label class="form-label" for="labsObjectives">Key Strategic Objectives</label>
+              <textarea id="labsObjectives" rows="4" class="form-textarea" placeholder="Describe the specific leadership challenges your team is addressing (e.g. cross-silo friction, crisis readiness, strategic alignment)..."></textarea>
+            </div>
+            <div class="form-group col-full" style="margin-top: 10px;">
+              <button type="submit" class="btn btn-forest btn-lg" style="width: 100%;">
+                Request M2C Labs Proposal <span class="arrow-icon">→</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand">
+          <img src="assets/logo.png" alt="MilitaryToCorp Logo" width="160" height="48" style="filter: brightness(0) invert(1);">
+          <p>M2C Labs — Translating military doctrine into boardroom leadership excellence.</p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="employers.html">Employers</a></li>
+            <li><a href="job-search.html">Job Search</a></li>
+            <li><a href="m2c-labs.html">M2C Labs</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">L&amp;OD Center</h4>
+          <p style="color: rgba(250,247,242,0.7);">Unitech Cyber Park, Sector 39, Gurugram, Haryana 122002</p>
+          <p style="color: rgba(250,247,242,0.7);"><a href="mailto:labs@militarytocorp.com">labs@militarytocorp.com</a></p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Get Started</h4>
+          <a href="#workshop-inquiry" class="btn btn-champagne btn-sm">Schedule Discovery Session</a>
+        </div>
+      </div>
+      <div class="footer-bottom-row">
+        <div>&copy; 2026 MilitaryToCorp (M2C). All rights reserved.</div>
+        <div class="footer-legal-links">
+          <a href="about-us.html#philosophy">Our Philosophy</a>
+          <span>·</span>
+          <a href="contact-us.html">Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast-notice" id="toastNotice" role="alert" aria-live="polite">
+    <span id="toastMessage">Request submitted successfully.</span>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('labsForm')?.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const btn = this.querySelector('button[type="submit"]');
+      btn.disabled = true;
+      btn.textContent = 'Transmitting Proposal Request...';
+      setTimeout(() => {
+        btn.disabled = false;
+        btn.textContent = 'Request M2C Labs Proposal →';
+        this.reset();
+        window.showM2CToast('Your M2C Labs proposal request has been received. Our leadership director will contact you within 24 hours.', 5000);
+      }, 1000);
+    });
+  </script>
+</body>
+</html>

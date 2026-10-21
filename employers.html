@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Employer solutions by MilitaryToCorp: Veteran hiring, volume recruitment, diversity hiring, and corporate leadership workshops.">
+  <meta name="theme-color" content="#152A20">
+  <title>Employer Solutions | MilitaryToCorp — Veteran Hiring &amp; Corporate Talent</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-left">
+        <span class="topbar-badge">MilitaryToCorp</span>
+        <span class="topbar-tagline">Leadership Beyond Service · Veteran Hiring &amp; L&amp;OD Solutions</span>
+      </div>
+      <div class="topbar-right">
+        <a href="tel:+911244200300" class="topbar-contact-item">+91 124 420 0300</a>
+        <a href="mailto:info@militarytocorp.com" class="topbar-contact-item">info@militarytocorp.com</a>
+        <div class="topbar-auth-links">
+          <a href="https://www.militarytocorp.com/job-seeker/login" class="topbar-auth-link" target="_blank" rel="noopener">Login</a>
+          <a href="https://www.militarytocorp.com/job-seeker/registration" class="topbar-auth-btn" target="_blank" rel="noopener">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="mainHeader">
+    <div class="header-scroll-progress" id="scrollProgress"></div>
+    <div class="container nav-container">
+      <a href="index.html" class="brand" aria-label="MilitaryToCorp Homepage">
+        <img src="assets/logo.png" alt="MilitaryToCorp Logo" class="brand-logo" width="160" height="48">
+      </a>
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <div class="nav-drop">
+          <button type="button" class="nav-drop-btn" aria-haspopup="true" aria-expanded="false">
+            About Us
+            <svg class="nav-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="dropdown-menu" role="menu">
+            <a href="about-us.html" class="dropdown-item">About Us Overview</a>
+            <a href="about-us.html#philosophy" class="dropdown-item">Our Philosophy</a>
+            <a href="about-us.html#vision" class="dropdown-item">Our Vision &amp; Mission</a>
+            <a href="about-us.html#story" class="dropdown-item">Our Story</a>
+            <a href="about-us.html#people" class="dropdown-item">Our People</a>
+          </div>
+        </div>
+        <div class="nav-drop">
+          <button type="button" class="nav-drop-btn is-active" aria-haspopup="true" aria-expanded="false">
+            Employers
+            <svg class="nav-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="dropdown-menu" role="menu">
+            <a href="employers.html" class="dropdown-item">Employer Solutions Overview</a>
+            <a href="employers.html#hire-veterans" class="dropdown-item">Veteran Hiring Solutions</a>
+            <a href="employers.html#volume-hiring" class="dropdown-item">Volume &amp; Diversity Hiring</a>
+          </div>
+        </div>
+        <a href="job-search.html" class="nav-link">Job Search</a>
+        <a href="m2c-labs.html" class="nav-link">M2C Labs</a>
+        <a href="contact-us.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="#employer-inquiry" class="btn btn-forest btn-sm">Inquire Now</a>
+        <button type="button" class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-backdrop" id="mobileDrawerBackdrop"></div>
+  <aside class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-header">
+      <img src="assets/logo.png" alt="MilitaryToCorp Logo" width="140" height="42">
+      <button type="button" class="mobile-drawer-close" id="mobileDrawerClose">✕</button>
+    </div>
+    <div class="mobile-nav-list">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="about-us.html" class="mobile-nav-link">About Us</a>
+      <a href="employers.html" class="mobile-nav-link is-active">Employers</a>
+      <a href="job-search.html" class="mobile-nav-link">Job Search</a>
+      <a href="m2c-labs.html" class="mobile-nav-link">M2C Labs</a>
+      <a href="contact-us.html" class="mobile-nav-link">Contact Us</a>
+    </div>
+  </aside>
+
+  <main>
+    <!-- Sub-page Hero -->
+    <section class="subpage-hero">
+      <div class="container">
+        <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="breadcrumb-sep">/</span>
+          <span>Employers</span>
+        </nav>
+        <span class="eyebrow">Enterprise Talent Solutions</span>
+        <h1 class="subpage-title">Deploy battle-tested leadership into your corporate ranks.</h1>
+        <p class="section-lead">
+          From C-suite leaders who have commanded multi-thousand personnel formations to frontline cluster managers driving high-throughput operations, M2C delivers verified military talent.
+        </p>
+      </div>
+    </section>
+
+    <!-- Core Solutions -->
+    <section class="section" id="hire-veterans">
+      <div class="container">
+        <div class="section-header-split">
+          <div>
+            <span class="eyebrow">Service Offerings</span>
+            <h2 class="section-title">Comprehensive <em>Veteran Talent Programs</em></h2>
+          </div>
+          <p class="section-lead">
+            Tailored engagement models designed to meet strict hiring SLAs, specialized security clearances, and precise functional requirements.
+          </p>
+        </div>
+
+        <div class="services-layout">
+          <article class="service-featured-card">
+            <div class="service-featured-img-wrap">
+              <img src="assets/veteran-hiring.png" alt="Veteran executive lateral hiring" width="700" height="350">
+            </div>
+            <div class="service-featured-content">
+              <span class="eyebrow">Lateral &amp; Executive Search</span>
+              <h3 class="service-featured-title">Executive Military Leadership</h3>
+              <p class="service-featured-desc">
+                Placement of senior military officers (Colonels, Brigadiers, Wing Commanders, Captains) into enterprise roles: Chief Operating Officer, VP of Supply Chain, Head of Security &amp; Resiliency, and Director of Corporate Governance.
+              </p>
+              <div>
+                <a href="#employer-inquiry" class="btn btn-forest">Request Executive Search Brief</a>
+              </div>
+            </div>
+          </article>
+
+          <div class="service-stack" id="volume-hiring">
+            <article class="service-stack-card">
+              <div class="service-stack-thumb">
+                <img src="assets/jobs-graphic.jpg" alt="Volume operations hiring" width="140" height="120">
+              </div>
+              <div class="service-stack-info">
+                <span class="eyebrow" style="margin-bottom: 4px; font-size: 0.68rem;">Operations &amp; Logistics</span>
+                <h3>Volume Hiring Programs</h3>
+                <p>Deploying disciplined Junior Commissioned Officers (JCOs) and Non-Commissioned Officers across warehouse clusters, manufacturing sites, and plant maintenance operations.</p>
+                <a href="#employer-inquiry" class="text-link">Explore volume hiring <span class="arrow-icon">→</span></a>
+              </div>
+            </article>
+
+            <article class="service-stack-card">
+              <div class="service-stack-thumb">
+                <img src="assets/events.jpeg" alt="Diversity hiring for women military officers" width="140" height="120">
+              </div>
+              <div class="service-stack-info">
+                <span class="eyebrow" style="margin-bottom: 4px; font-size: 0.68rem;">Diversity &amp; Inclusion</span>
+                <h3>Women &amp; PWD Veteran Hiring</h3>
+                <p>Dedicated talent pipelines connecting retiring women officers and persons with disabilities (PWD) veterans to progressive corporate diversity initiatives.</p>
+                <a href="#employer-inquiry" class="text-link">Discover D&amp;I programs <span class="arrow-icon">→</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Veterans Win in Corporate Environments -->
+    <section class="section section-warm">
+      <div class="container">
+        <div class="section-header-split">
+          <div>
+            <span class="eyebrow">The Veteran Advantage</span>
+            <h2 class="section-title">Why Fortune 500s <em>hire military talent.</em></h2>
+          </div>
+          <p class="section-lead">
+            Military professionals operate in high-ambiguity environments where failure is not an option. This breeds innate leadership qualities that cannot be taught in a standard classroom.
+          </p>
+        </div>
+
+        <div class="bridge-pillars-grid">
+          <div class="pillar-card">
+            <span class="eyebrow" style="margin-bottom: 6px;">Trait 01</span>
+            <h3 class="pillar-title">Crisis Composure</h3>
+            <p class="pillar-desc">Calm, analytical decision-making when schedules fail, disruptions occur, or market conditions shift unexpectedly.</p>
+          </div>
+          <div class="pillar-card">
+            <span class="eyebrow" style="margin-bottom: 6px;">Trait 02</span>
+            <h3 class="pillar-title">Team Cohesion</h3>
+            <p class="pillar-desc">Mastery in uniting diverse teams, building camaraderie, and aligning every individual toward one overarching mission.</p>
+          </div>
+          <div class="pillar-card">
+            <span class="eyebrow" style="margin-bottom: 6px;">Trait 03</span>
+            <h3 class="pillar-title">P&amp;L Stewardship</h3>
+            <p class="pillar-desc">Absolute responsibility for multi-million dollar equipment, assets, and personnel with zero loss tolerance.</p>
+          </div>
+          <div class="pillar-card">
+            <span class="eyebrow" style="margin-bottom: 6px;">Trait 04</span>
+            <h3 class="pillar-title">Uncompromising Ethics</h3>
+            <p class="pillar-desc">Deep-rooted code of honor, statutory compliance, and transparency that protects corporate brand reputation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Employer Consultation Form -->
+    <section class="section" id="employer-inquiry">
+      <div class="container container-narrow">
+        <div style="background-color: #FFFFFF; border: 1px solid var(--border-medium); border-radius: var(--r-lg); padding: clamp(32px, 5vw, 56px); box-shadow: var(--shadow-md);">
+          <div style="text-align: center; margin-bottom: 36px;">
+            <span class="eyebrow">Get Started</span>
+            <h2 class="section-title" style="font-size: 2.2rem; margin-bottom: 12px;">Initiate a Corporate Consultation</h2>
+            <p class="section-lead" style="margin: 0 auto;">
+              Connect with an M2C senior talent director to discuss your specific headcount requirements, timelines, and role competencies.
+            </p>
+          </div>
+
+          <form id="employerForm" class="modal-form-grid" style="grid-template-columns: repeat(2, 1fr);">
+            <div class="form-group">
+              <label class="form-label" for="empName">Full Name *</label>
+              <input type="text" id="empName" class="form-input" required placeholder="e.g. Priya Iyer">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="empEmail">Corporate Email *</label>
+              <input type="email" id="empEmail" class="form-input" required placeholder="priya.iyer@company.com">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="empCompany">Company Name *</label>
+              <input type="text" id="empCompany" class="form-input" required placeholder="e.g. Amazon / Tata Steel / Flipkart">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="empPhone">Phone Number *</label>
+              <input type="tel" id="empPhone" class="form-input" required placeholder="+91 98765 43210">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="empHiringType">Hiring Program Interest</label>
+              <select id="empHiringType" class="form-select">
+                <option value="Lateral Search">Lateral &amp; Executive Veteran Search</option>
+                <option value="Volume Hiring">Volume &amp; Cluster Operations Hiring</option>
+                <option value="Diversity">Women Officers &amp; PWD Veterans</option>
+                <option value="M2C Labs">M2C Labs Leadership Workshop</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="empLocations">Target Work Locations</label>
+              <input type="text" id="empLocations" class="form-input" placeholder="e.g. Pan-India / Bangalore / NCR">
+            </div>
+            <div class="form-group col-full">
+              <label class="form-label" for="empDetails">Role Requirements &amp; Timelines</label>
+              <textarea id="empDetails" rows="4" class="form-textarea" placeholder="Describe the roles, target ranks, required experience, and desired onboarding window..."></textarea>
+            </div>
+            <div class="form-group col-full" style="margin-top: 10px;">
+              <button type="submit" class="btn btn-forest btn-lg" style="width: 100%;">
+                Submit Consultation Request <span class="arrow-icon">→</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand">
+          <img src="assets/logo.png" alt="MilitaryToCorp Logo" width="160" height="48" style="filter: brightness(0) invert(1);">
+          <p>MilitaryToCorp (M2C) — Connecting military experience with meaningful corporate opportunity.</p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="employers.html">Employers</a></li>
+            <li><a href="job-search.html">Job Search</a></li>
+            <li><a href="m2c-labs.html">M2C Labs</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Corporate Headquarters</h4>
+          <p style="color: rgba(250,247,242,0.7);">Unitech Cyber Park, Sector 39, Gurugram, Haryana 122002</p>
+          <p style="color: rgba(250,247,242,0.7);"><a href="mailto:info@militarytocorp.com">info@militarytocorp.com</a></p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Talent Resources</h4>
+          <a href="https://www.militarytocorp.com/job-seeker/registration" target="_blank" class="btn btn-champagne btn-sm">Veteran Registration</a>
+        </div>
+      </div>
+      <div class="footer-bottom-row">
+        <div>&copy; 2026 MilitaryToCorp (M2C). All rights reserved.</div>
+        <div class="footer-legal-links">
+          <a href="about-us.html#philosophy">Our Philosophy</a>
+          <span>·</span>
+          <a href="contact-us.html">Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div class="toast-notice" id="toastNotice" role="alert" aria-live="polite">
+    <span id="toastMessage">Inquiry submitted successfully.</span>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('employerForm')?.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const btn = this.querySelector('button[type="submit"]');
+      btn.disabled = true;
+      btn.textContent = 'Transmitting Request...';
+      setTimeout(() => {
+        btn.disabled = false;
+        btn.textContent = 'Submit Consultation Request →';
+        this.reset();
+        window.showM2CToast('Your corporate consultation request has been received. An M2C talent partner will reach out within 4 business hours.', 5000);
+      }, 1000);
+    });
+  </script>
+</body>
+</html>
