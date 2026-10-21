@@ -329,7 +329,7 @@
       posted: '3 weeks ago',
       isNew: false,
       skills: [],
-      desc: 'https://www.militarytocorp.com/crm/uploads/ckeditor/JD-Flipkart-Cluster Head...',
+      desc: 'Lead cluster operations for a leading e-commerce company, covering delivery performance, team leadership, and service quality in Rajahmundry.',
       experience: '',
       responsibilities: []
     },
