@@ -246,6 +246,7 @@
       'assets/veteran-hiring.png',
       'assets/hero-detail.jpg'
     ];
+    const heroFrames = ['handshake', 'graphic', 'portrait'];
     let currentHeroIdx = 0;
     let heroFading = false;
 
@@ -263,6 +264,7 @@
       heroBg.style.opacity = '0';
       window.setTimeout(() => {
         heroBg.src = heroImages[currentHeroIdx];
+        heroBg.dataset.frame = heroFrames[currentHeroIdx];
         heroBg.style.opacity = '1';
         heroFading = false;
       }, 420);
@@ -304,112 +306,88 @@
   // -------------------------------------------------------------------------
   const jobsData = [
     {
-      id: 'M2C10739',
-      title: 'Technical Program Manager',
-      category: 'tech',
-      company: 'Leading Global Tech & IT Conglomerate',
-      location: 'Bangalore, India',
-      type: 'Full-Time / Executive',
-      posted: 'Posted 3 days ago',
-      isNew: true,
-      skills: ['Technical Project Management', 'Cloud Strategy', 'Cross-Functional Command'],
-      desc: 'Own and drive the Industry Clouds operating model by achieving strategic alignment on program architecture, cloud governance, and delivery cadence across distributed engineering squads.',
-      experience: 'Ex-Major / Lt Col / Wing Commander / Commander or 8+ years technical leadership',
-      responsibilities: [
-        'Lead multi-squad cloud transformation programs with precision delivery timelines.',
-        'Establish governance, risk mitigation protocols, and cross-functional transparency.',
-        'Mentor engineering teams in operational excellence and mission-first discipline.'
-      ]
-    },
-    {
       id: 'M2C10738',
-      title: 'Technical Support & Operations Director',
+      title: 'Technical Support Manager',
       category: 'tech',
-      company: 'Enterprise Cloud Solutions Provider',
-      location: 'Bangalore, India',
-      type: 'Full-Time / Director',
-      posted: 'Posted 5 days ago',
-      isNew: true,
-      skills: ['Operations Support', 'Incident Command', 'SLA Governance'],
-      desc: 'Direct global support operations ensuring mission-critical 99.99% uptime, escalation command center workflows, and executive customer relationships across EMEA & APAC.',
-      experience: 'Ex-Military Technical / Signals / Corps of Engineers with 10+ years operational leadership',
-      responsibilities: [
-        'Lead a 120+ member tier-3 technical response team across 24/7 rotations.',
-        'Architect incident containment and crisis communication protocols.',
-        'Optimize operational efficiency and NPS score across global enterprise accounts.'
-      ]
+      company: 'A leading Tech & IT Company',
+      location: 'Bangalore',
+      type: 'Full-Time',
+      posted: '2 weeks ago',
+      isNew: false,
+      skills: ['Technical Support'],
+      desc: 'Lead High-Performance Teams: Manage a support team to achieve business objectives...',
+      experience: '',
+      responsibilities: []
     },
     {
       id: 'M2C10737',
-      title: 'Cluster Head - Supply Chain & Fulfillment',
+      title: 'Manager-APST',
       category: 'operations',
-      company: 'Tier-1 E-Commerce Logistics Giant',
-      location: 'Rajahmundry / Hyderabad, India',
-      type: 'Full-Time / General Management',
-      posted: 'Posted 1 week ago',
-      isNew: true,
-      skills: ['P&L Management', 'Logistics Infrastructure', 'Workforce Safety'],
-      desc: 'Lead end-to-end regional fulfillment center operations, warehouse automation, asset safety, and dispatch logistics spanning three Tier-2 hubs with 800+ personnel.',
-      experience: 'Ex-Armed Forces Logistics (ASC / Naval Supply / Air Force Logistics)',
-      responsibilities: [
-        'Total accountability for regional hub throughput, dock turnaround, and safety standards.',
-        'Manage high-volume peak logistics with military logistics rigor.',
-        'Drive talent retention, health, safety, and regulatory compliance.'
-      ]
+      company: 'E-Commerce',
+      location: 'Rajahmundry',
+      type: 'Full-Time',
+      posted: '3 weeks ago',
+      isNew: false,
+      skills: [],
+      desc: 'https://www.militarytocorp.com/crm/uploads/ckeditor/JD-Flipkart-Cluster Head...',
+      experience: '',
+      responsibilities: []
     },
     {
       id: 'M2C10736',
-      title: 'Audit & Operational Risk Team Leader',
+      title: 'Audit Team Leader',
       category: 'leadership',
-      company: 'National E-Commerce & Retail Network',
-      location: 'Amritsar / Chandigarh, India',
-      type: 'Full-Time / Senior Lead',
-      posted: 'Posted 2 weeks ago',
+      company: 'E-Commerce',
+      location: 'Amritsar',
+      type: 'Full-Time',
+      posted: '1 month ago',
       isNew: false,
-      skills: ['Internal Audit', 'Loss Prevention', 'Asset Protection'],
-      desc: 'Spearhead process assurance, shrink prevention, compliance audits, and asset security across high-value distribution networks and transport corridors.',
-      experience: 'Ex-Infantry / Military Police / Intelligence Corps with strong process rigor',
-      responsibilities: [
-        'Conduct unannounced process audits and security integrity reviews.',
-        'Design anti-pilferage controls and forensic reporting systems.',
-        'Train operational staff on statutory compliance and ethical standards.'
-      ]
+      skills: [],
+      desc: 'Job Role: Audit Team Leader Job Locations: Amritsar, Punjab, India Required...',
+      experience: '',
+      responsibilities: []
     },
     {
       id: 'M2C10735',
-      title: 'Head of Corporate Security & Crisis Agility',
+      title: 'Sr Manager- Security and Vigilance',
       category: 'security',
-      company: 'Global Automotive & Manufacturing MNC',
-      location: 'Pune / Mumbai, India',
-      type: 'Full-Time / Leadership',
-      posted: 'Posted 2 weeks ago',
+      company: 'Leading Telecom Infra Company',
+      location: 'Kolkata',
+      type: 'Full-Time',
+      posted: '1 month ago',
       isNew: false,
-      skills: ['Crisis Management', 'Physical Security', 'Business Continuity'],
-      desc: 'Develop corporate resilience architecture, disaster recovery drills, plant physical security, executive protection, and liaison with government and emergency authorities.',
-      experience: 'Ex-Colonel / Brigadier / Equivalent with comprehensive security command',
-      responsibilities: [
-        'Command security operations across 4 manufacturing plants and regional HQ.',
-        'Develop risk mitigation matrices for emergency readiness and supply resilience.',
-        'Lead emergency response cell during geopolitical or environmental disruptions.'
-      ]
+      skills: [],
+      desc: 'Hiring for Sr. Manager – Security & Vigilance | Kolkata Leadership role with...',
+      experience: '',
+      responsibilities: []
     },
     {
       id: 'M2C10734',
-      title: 'Vice President - Strategic Sourcing & Procurement',
-      category: 'leadership',
-      company: 'Leading FMCG & Industrial Conglomerate',
-      location: 'Gurugram / NCR, India',
-      type: 'Full-Time / Executive',
-      posted: 'Posted 3 weeks ago',
+      title: 'Personal Security Officer',
+      category: 'security',
+      company: 'A leading real estate & property mgmt MNC',
+      location: 'Bengaluru',
+      type: 'Full-Time',
+      posted: '1 month ago',
       isNew: false,
-      skills: ['Strategic Procurement', 'Vendor Management', 'Cost Optimization'],
-      desc: 'Direct nationwide raw material procurement, contracts negotiation, vendor diversification, and strategic supply buffer protocols across 14 manufacturing facilities.',
-      experience: 'Ex-Defence Procurement / Master General of Ordnance / Senior Naval Logistics',
-      responsibilities: [
-        'Oversee multi-crore procurement portfolios with absolute transparency and integrity.',
-        'Establish strategic vendor partnerships minimizing global supply chain volatility.',
-        'Implement automated inventory replenishment and sustainability metrics.'
-      ]
+      skills: [],
+      desc: 'Hiring Ex-Servicemen | Personal Security Officer (PSO) | Bangalore   We are...',
+      experience: '',
+      responsibilities: []
+    },
+    {
+      id: 'M2C10733',
+      title: 'Engineering Roles',
+      category: 'tech',
+      company: 'A Leading Education Society',
+      location: 'Coimbatore',
+      type: 'Full-Time',
+      posted: '1 month ago',
+      isNew: false,
+      skills: [],
+      desc: 'Hiring Ex-Servicemen | Multiple Roles | Coimbatore Budget: 6–7.2 LPA  We...',
+      experience: '',
+      responsibilities: []
     }
   ];
 
@@ -457,7 +435,7 @@
         <article class="job-card" data-job-id="${job.id}">
           <div class="job-card-header">
             <div>
-              <span class="eyebrow" style="margin-bottom: 6px; font-size: 0.68rem;">Job ID: ${job.id}</span>
+              <span class="eyebrow" style="margin-bottom: 6px; font-size: 0.68rem;">Job ID - ${job.id}</span>
               <h3 class="job-card-title">${escapeHTML(job.title)}</h3>
             </div>
             ${job.isNew ? '<span class="job-badge-new">NEW</span>' : ''}
@@ -478,9 +456,7 @@
             </span>
           </div>
 
-          <div class="job-card-skills">
-            ${job.skills.map(skill => `<span class="job-skill-chip">${escapeHTML(skill)}</span>`).join('')}
-          </div>
+          ${job.skills.length ? `<div class="job-card-skills">${job.skills.map(skill => `<span class="job-skill-chip">${escapeHTML(skill)}</span>`).join('')}</div>` : ''}
 
           <p class="job-card-desc">${escapeHTML(job.desc)}</p>
 
@@ -499,6 +475,7 @@
 
     // Attach listeners to newly rendered cards
     attachJobCardEvents();
+    revealJobCards();
   }
 
   function escapeHTML(str) {
@@ -568,6 +545,8 @@
   }
 
   // Initial render
+  let revealJobCards = function () {};
+  initHomeMotion();
   renderJobs();
 
   // -------------------------------------------------------------------------
@@ -701,5 +680,73 @@
       } catch (_) {}
     });
   })();
+
+  function initHomeMotion() {
+    const home = document.querySelector('.hero-ref-banner');
+    if (!home) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    document.documentElement.classList.add('motion');
+
+    const batches = [
+      { sel: '.hero-cert-pill, .hero-line-welcome, .hero-line-brand, .hero-ref-tagline, .hero-cta-row, .hero-excellence-shield', immediate: true },
+      { sel: '.offer-top > *, .offer-feature, .offer-card' },
+      { sel: '.photo-band-copy > *, .photo-band-image' },
+      { sel: '.updates-alert-ribbon' },
+      { sel: '.about-lead-copy > *, .about-photo-frame' },
+      { sel: '.section-ribbon-title, .service-clean-card' },
+      { sel: '.wide-feature-card' },
+      { sel: '.stat-box-ref' },
+      { sel: '.bottom-trio-card' },
+      { sel: '.jobs-section .section-header-split > *, .jobs-toolbar' },
+      { sel: '.philosophy-section > div:first-child, .lens-tabs-nav' },
+      { sel: '.dual-cta-section > div' },
+      { sel: '.newsletter-band > *' },
+      { sel: '.footer-top-grid > div' }
+    ];
+
+    const pending = [];
+
+    batches.forEach((batch) => {
+      document.querySelectorAll(batch.sel).forEach((el, index) => {
+        if (el.classList.contains('rise')) return;
+        el.classList.add('rise');
+        if (el.matches('.about-photo-frame, .corner-card-image, .offer-feature, .photo-band-image')) {
+          el.classList.add('rise-photo');
+        }
+        el.style.transitionDelay = Math.min(index, 5) * 80 + 'ms';
+        pending.push({ el, immediate: !!batch.immediate });
+      });
+    });
+
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-shown');
+        io.unobserve(entry.target);
+      });
+    }, { threshold: 0.16, rootMargin: '0px 0px -6% 0px' });
+
+    revealJobCards = function () {
+      document.querySelectorAll('#jobsGrid .job-card').forEach((el, index) => {
+        if (el.classList.contains('rise')) return;
+        el.classList.add('rise');
+        el.style.transitionDelay = (index % 2) * 90 + 'ms';
+        io.observe(el);
+      });
+    };
+
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        pending.forEach(({ el, immediate }) => {
+          if (immediate) {
+            el.classList.add('is-shown');
+          } else {
+            io.observe(el);
+          }
+        });
+      });
+    });
+  }
 
 })();
